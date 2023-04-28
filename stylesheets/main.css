@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+}
+/* 
+museum-bar {
+  color: white;
+  background-color: crimson;
+  margin: 0;
+  padding: 0;
+  float: right;
+} */
+
+
+
+  /* ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(71, 70, 70);
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px
+      } */
+
+      /* <!-- <header>
+      <ul> 
+        <li><a href="Login">Login</a></li>
+      </ul>
+    </header>
+    <section>
+      <ul>  
+        <li><a href="Featured">Featured</a></li>
+        <li><a href="Art">Art</a></li>
+        <li><a href="Building">Building</a></li>
+      </ul>
+    </section> --> */
