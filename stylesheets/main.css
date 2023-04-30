@@ -1,6 +1,99 @@
 body {
   background-color: white;
 }
+
+.intro {
+  overflow: hidden;
+  background-color: rgb(183, 0, 0);
+  }
+
+.intro a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+/* nav bar menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(61, 61, 61);
+  }
+
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 8px;
+}
+
+/* grid for content */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* main content */
+.column.content {
+  width: 75%;
+}
+
+/* side gallery with images*/
+.column.sidegallery {
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.column.sidegallery li {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.p1 {
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.p2 {
+  font-family:"Helvetica", "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+
+.p3 {
+  font-family: "Helvetica", "Times new Roman", Times, serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(61, 61, 61);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-size: 11px;
+}
+
 /* 
 museum-bar {
   color: white;
@@ -43,3 +136,10 @@ museum-bar {
         <li><a href="Building">Building</a></li>
       </ul>
     </section> --> */
+
+    /* .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+   */

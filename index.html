@@ -1,98 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    
     <title>5280 Landmarks</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/reset.css" title="text/css" />
     <link rel="stylesheet" href="stylesheets/main.css" title="text/css" />
     <style>
-
-      .intro {
-          overflow: hidden;
-          background-color: rgb(183, 0, 0);
-          }
-
-      .intro a {
-          float: right;
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 10px 16px;
-          text-decoration: none;
-          font-size: 9px;
-        }
-
-      .topnav {
-        overflow: hidden;
-        background-color: rgb(61, 61, 61);
-        }
-
-      .topnav a {
-        float: right;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 10px 16px;
-        text-decoration: none;
-        font-size: 8px;
+      * {
+        box-sizing: border-box;
       }
-
-      .column {
-        float: left;
-        padding: 10px;
-      }
-
-      .clearfix::after {
-          content: "";
-          clear: both;
-          display: table;
-      }
-
-      .sidegallery {
-        width: 15%;
-        margin: 0;
-        padding: 10px;
-      }
-
-      .content {
-        width: 75%;
-      }
-
-      .sidegallery li {
-        list-style-type: none;
-        margin: 0;
-        padding: 3px;
-        margin-bottom: 3px;
-      }
-
-      .p1 {
+      body {
         font-family: "Helvetica", "Times New Roman", Times, serif;
-        font-size: 15px;
-        font-weight: bold;
       }
-
-      .p2 {
-        font-family:"Helvetica", "Times New Roman", Times, serif;
-        font-size: 10px;
-      }
-
-      .p3 {
-        font-family: "Helvetica", "Times new Roman", Times, serif;
-        font-size: 13px;
-        font-weight: bold;
-      }
-
-      footer {
-        background-color: rgb(61, 61, 61);
-        padding: 10px;
-        text-align: center;
-        color: white;
-        font-family: "Helvetica", "Times New Roman", Times, serif;
-        font-size: 11px;
-      }
-
-    </style>
+    </style>      
   </head>
   <body>
     <div class="intro">
@@ -105,7 +26,7 @@
       <a href="#building">Building</a>
     </div>
   
-    <div class="clearfix">
+    <div class="row">
       <div class="column content">
         <img src="/Users/ashleyplasket/2mod/challenges/static_challenges/images/1.jpg" atl="Denver museum">
         <p class="p1">Denver Art Musuem</p>
@@ -129,6 +50,32 @@
         </li>
       </div>
     </div>
+
+
+    <!-- <div class="clearfix"> -->
+      <!-- <div class="column content">
+        <img src="/Users/ashleyplasket/2mod/challenges/static_challenges/images/1.jpg" atl="Denver museum">
+        <p class="p1">Denver Art Musuem</p>
+        <br>
+        <p class="p2"> 
+          Lorem ipsum dolor sit amet, quis idque munere est ex. Eos id soluta meliore menandri, sed ex graeci prompta sapientem. Cum in verterem partiendo, quod partiendo principes vix et. Ne eam virtute abhorreant. At qui doming nemore mediocritatem, ei pri bonorum blandit, vim elitr recusabo salutatus eu. <br><br>
+          Mea adhuc persecuti in, dolorum mentitum ullamcorper his ut. Graeci scriptorem cum ea, an ignota signiferumque nec. No dicunt sanctus moderatius sed, meliore inermis ei mea. Utinam impedit maiestatis sea ad, quis efficiendi eu mel, ea solet placerat phaedrum vis. Et vix causae aliquam, commodo blandit imperdiet ex his. <br><br>
+          Duo an eleifend omittantur, te sint civibus recusabo eos. An ius corpora definiebas cotidieque. Eu pri reque sapientem contentiones, fierent conclusionemque mei in. Saepe veniam ne mei, ut facilisi omittantur nec.<br><br>
+          Nam ad quas consul salutandi, sea ad verterem quaestio. Mei ea quot dictas. Eam choro eloquentiam eu, vim cu facete scriptorem. Mel at latine veritus.<br><br>
+        </p>
+      </div> -->
+
+      <!-- <div class="column sidegallery">
+        <li>
+          <p class="p3">Larimer Square</p>
+          <img src="/Users/ashleyplasket/2mod/challenges/static_challenges/images/2.jpg" atl="Larimer Square" style="width:150px; height:90px;"><br><br><br><br>
+          <p class="p3">Millenium Bridge</p>
+          <img src="/Users/ashleyplasket/2mod/challenges/static_challenges/images/5.jpg" atl="" style="width:150px; height:90px;"><br><br><br><br>
+          <p class="p3">Molly Brown House</p>
+          <img src="/Users/ashleyplasket/2mod/challenges/static_challenges/images/6.jpg" atl="" style="width:150px; height:120px;"><br><br><br><br>
+        </li>
+      </div>
+    </div> -->
     
     <footer>
       <p>
@@ -139,3 +86,32 @@
     </footer>
   </body>
 </html>
+
+<!-- 
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidegallery {
+  width: 15%;
+  margin: 0;
+  padding: 10px;
+}
+
+.content {
+  width: 75%;
+}
+
+.sidegallery li {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  margin-bottom: 3px;
+} -->
