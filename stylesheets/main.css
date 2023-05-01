@@ -4,22 +4,23 @@
 
 body {
   background-color: white;
-  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .intro {
-  overflow: hidden;
-  background-color: rgb(183, 0, 0);
+  color: white;
+  background-color: #aa0000;
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
   }
 
-.intro a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-  font-size: 13px;
+.intro span {
+  margin-left: auto;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-decoration-line: underline;
 }
 
 /* nav bar menu */
@@ -62,10 +63,22 @@ body {
   margin-bottom: 3px;
 }
 
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 400px) {
+  .column.content, column.sidegallery {
+    width: 100%;
+  }
 }
 
 footer {
@@ -77,11 +90,6 @@ footer {
   font-size: 11px;
 }
 
-@media (max-width: 400px) {
-  .column.content, column.sidegallery {
-    width: 100%;
-  }
-}
 
 .p1 {
   font-size: 15px;
@@ -96,52 +104,4 @@ footer {
   font-size: 13px;
   font-weight: bold;
 }
-/* 
-museum-bar {
-  color: white;
-  background-color: crimson;
-  margin: 0;
-  padding: 0;
-  float: right;
-} */
 
-
-
-  /* ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(71, 70, 70);
-      }
-
-      li {
-        float: right;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px
-      } */
-
-      /* <!-- <header>
-      <ul> 
-        <li><a href="Login">Login</a></li>
-      </ul>
-    </header>
-    <section>
-      <ul>  
-        <li><a href="Featured">Featured</a></li>
-        <li><a href="Art">Art</a></li>
-        <li><a href="Building">Building</a></li>
-      </ul>
-    </section> --> */
-
-    /* .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-  }
-   */
